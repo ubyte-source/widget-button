@@ -1,0 +1,63 @@
+button.button.ellipsis { white-space: nowrap !important; overflow: hidden !important; text-overflow: ellipsis; }
+button.button { display: inline-block; height: 36px; line-height: 18px; padding: 0 16px; text-transform: uppercase; border-radius: 2px; }
+button.button { vertical-align :middle; -webkit-tap-highlight-color: transparent; box-shadow:0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12),0 1px 5px 0 rgba(0,0,0,0.2);  }
+button.button, button.button.flat { font-size: 13px; font-weight: 500; outline:0; }
+button.button { text-decoration: none; font-weight: 500; text-align: center; letter-spacing: .5px; transition: background-color .2s ease-out; cursor: pointer; }
+button.button i, button.button.flat i { margin-left: 8px; margin-right: 8px; font-size: 1.3rem; line-height: inherit; }
+button.button i, button.button span { color: #fff; }
+
+button.button :first-child { margin-left: 0 !important; }
+button.button :last-child { margin-right: 0 !important; }
+
+button.button.disabled, button.button.flat.disabled { box-shadow: none; cursor: not-allowed; }
+button.button.disabled, button.button.flat.disabled, button.button.disabled span, button.button.flat.disabled span { color: #9f9f9f !important; }
+
+button.button { background-color: #4787ed; border: 1px solid #4787ed; }
+button.button:hover { box-shadow:0 3px 3px 0 rgba(0,0,0,0.14),0 1px 7px 0 rgba(0,0,0,0.12),0 3px 1px -1px rgba(0,0,0,0.2); }
+button.button:hover, button.button:focus { background-color: #357ae8; }
+
+button.button.red { background-color: #c53727; border-color: #c53727; }
+button.button.red:hover, button.button.red:focus { background-color: #d14836; }
+
+button.button.green { background-color: #368200; border-color: #368200; }
+button.button.green:hover, button.button.green:focus { background-color: #3d9400; }
+
+button.button.flat { display: inline-block; height: 36px; line-height: 36px; padding: 0 16px; text-transform: uppercase; }
+button.button.flat { border: none; border-radius: 2px; vertical-align: middle; box-shadow: none; background-color: transparent; cursor: pointer; transition: background-color .2s; }
+button.button.flat:focus, button.button.flat:hover { box-shadow: none; background-color: #e5e2e2 !important; }
+button.button.flat:focus { background-color: rgba(0,0,0,0.1); }
+button.button.flat.disabled i { color: #9f9f9f !important; }
+button.button.flat.disabled:hover { background-color: transparent !important; }
+
+button.button.flat { color: #4787ed; border: 1px solid transparent; }
+button.button.flat.border { border-color: #4787ed; }
+button.button.flat i, button.button.flat span { color: #4787ed; }
+
+button.button.red.flat { color: #c53727; }
+button.button.red.flat.border { border-color: #c53727;}
+button.button.red.flat i, button.button.red.flat span { color: #c53727; }
+
+button.button.green.flat { color: #368200; }
+button.button.green.flat.border { border-color: #368200; }
+button.button.green.flat i, button.button.green.flat span { color: #368200; }
+
+button.button.loader { background-color: #fff !important; cursor: not-allowed; }
+button.button.loader i, button.button.loader span.default { display: none; }
+
+button.button div.loader { margin-left: 10px; overflow: hidden; text-align: center; float: right; line-height: inherit; }
+button.button div.loader div { display: inline-block; width: 8px; height: 8px; margin: 0 2px; border-radius: 100%; -webkit-animation: bounce-delay 1.4s infinite ease-in-out both; animation: bounce-delay 1.4s infinite ease-in-out both; }
+button.button div.loader div.bounce-0 { -webkit-animation-delay: -.32s; animation-delay: -.32s; }
+button.button div.loader div.bounce-1 { -webkit-animation-delay: -.16s; animation-delay: -.16s; }
+
+button.button div.loader div { background-color: #4787ed; }
+button.button.red div.loader div { background-color: #c53727; }
+button.button.green div.loader div { background-color: #368200; }
+
+@-webkit-keyframes bounce-delay {
+  0%,80%,100%{ -webkit-transform: scale(0); }
+  40%{ -webkit-transform: scale(1.0); }
+}
+@keyframes bounce-delay {
+  0%,80%,100%{ -webkit-transform: scale(0); transform: scale(0); }
+  40%{ -webkit-transform: scale(1.0); transform: scale(1.0); }
+}
