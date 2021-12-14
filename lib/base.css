@@ -24,7 +24,7 @@ button.button.green:hover, button.button.green:focus { background-color: #3d9400
 
 button.button.flat { display: inline-block; height: 36px; line-height: 36px; padding: 0 16px; text-transform: uppercase; }
 button.button.flat { border: none; border-radius: 2px; vertical-align: middle; box-shadow: none; background-color: transparent; cursor: pointer; transition: background-color .2s; }
-button.button.flat:focus, button.button.flat:hover { box-shadow: none; background-color: #e5e2e2 !important; }
+button.button.flat:focus, button.button.flat:hover { box-shadow: none; background-color: #e5e2e2; }
 button.button.flat:focus { background-color: rgba(0,0,0,0.1); }
 button.button.flat.disabled i { color: #9f9f9f !important; }
 button.button.flat.disabled:hover { background-color: transparent !important; }
