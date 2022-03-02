@@ -23,6 +23,13 @@ document.appendChild(sync.out());
 
 ```
 
+## Structure
+
+- library:
+    - [window.Button](https://github.com/energia-source/widget-button#class-windowbutton-usable-methods)
+    - [window.Button.Icon](https://github.com/energia-source/widget-button#class-windowbuttonicon-usable-methods)
+    - [window.Button.Loader](https://github.com/energia-source/widget-button#class-windowbuttonloader-usable-methods)
+
 ## ***Class window.Button usable methods***
 
 ##### `static style()`
