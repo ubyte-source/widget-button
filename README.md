@@ -1,6 +1,6 @@
-#### Documentation widget-button
+# Documentation widget-button
 
-> Widget Javascript Button is a library used to create a button with various personalizations.
+Widget Javascript Button is a library used to create a button with various personalizations.
 
 ## Usage
 
@@ -9,6 +9,7 @@ So the basic setup looks something like this:
 ```
 
 let sync = new Button();
+
 sync.addStyle('flat');
 sync.getIcon().set('sync');
 sync.setText('Name of buttton');
@@ -25,12 +26,14 @@ document.appendChild(sync.out());
 
 ## Structure
 
-- library:
+library:
     - [window.Button](https://github.com/energia-source/widget-button#class-windowbutton-usable-methods)
     - [window.Button.Icon](https://github.com/energia-source/widget-button#class-windowbuttonicon-usable-methods)
     - [window.Button.Loader](https://github.com/energia-source/widget-button#class-windowbuttonloader-usable-methods)
 
-## ***Class window.Button usable methods***
+<br>
+
+#### ***Class window.Button usable methods***
 
 ##### `static style()`
 
@@ -118,7 +121,9 @@ Remove the element from the DOM
  * **Parameters:** `element` — The element to remove from the DOM.
  * **Returns:** The return value is a boolean value.
 
-## ***Class window.Button.Icon usable methods***
+<br>
+
+#### ***Class window.Button.Icon usable methods***
 
 ##### `constructor(button)`
 
@@ -151,7 +156,9 @@ Remove the button from the DOM
 
  * **Returns:** Nothing 
 
-## ***Class window.Button.Loader usable methods***
+<br>
+
+#### ***Class window.Button.Loader usable methods***
 
 ##### `static style()`
 
@@ -201,6 +208,19 @@ Remove the button from the DOM and remove the button from the button array
 ## Built With
 
 * [Javascript](https://www.javascript.com/) - Javascript
+
+## Contributing
+
+Please read [CONTRIBUTING.md](https://github.com/energia-source/widget-button/blob/main/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting us pull requests.
+
+## Versioning
+
+We use [SemVer](https://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/energia-source/widget-button/tags). 
+
+## Authors
+
+* **Paolo Fabris** - *Initial work* - [energia-europa.com](https://www.energia-europa.com/)
+* **Gabriele Luigi Masero** - *Developer* - [energia-europa.com](https://www.energia-europa.com/)
 
 ## License
 
