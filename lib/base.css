@@ -22,24 +22,24 @@ button.button.red:hover, button.button.red:focus { background-color: #d14836; }
 button.button.green { background-color: #368200; border-color: #368200; }
 button.button.green:hover, button.button.green:focus { background-color: #3d9400; }
 
-button.button.flat { display: inline-block; height: 36px; line-height: 36px; padding: 0 16px; text-transform: uppercase; }
-button.button.flat { border: none; border-radius: 2px; vertical-align: middle; box-shadow: none; background-color: transparent; cursor: pointer; transition: background-color .2s; }
-button.button.flat:focus, button.button.flat:hover { box-shadow: none; background-color: #e5e2e2; }
-button.button.flat:focus { background-color: rgba(0,0,0,0.1); }
-button.button.flat.disabled i { color: #9f9f9f !important; }
-button.button.flat.disabled:hover { background-color: transparent !important; }
+button.button.flat, button.button.loader { display: inline-block; height: 36px; line-height: 36px; padding: 0 16px; text-transform: uppercase; }
+button.button.flat, button.button.loader { border: none; border-radius: 2px; vertical-align: middle; box-shadow: none; background-color: transparent; cursor: pointer; transition: background-color .2s; }
+button.button.flat:focus, button.button.loader:focus, button.button.flat:hover, button.button.loader:hover { box-shadow: none; background-color: #e5e2e2; }
+button.button.flat:focus, button.button.loader:focus { background-color: rgba(0,0,0,0.1); }
+button.button.flat.disabled i, button.button.loader.disabled i { color: #9f9f9f !important; }
+button.button.flat.disabled:hover, button.button.loader.disabled:hover { background-color: transparent !important; }
 
-button.button.flat { color: #4787ed; border: 1px solid transparent; }
-button.button.flat.border { border-color: #4787ed; }
-button.button.flat i, button.button.flat span { color: #4787ed; }
+button.button.flat, button.button.loader { color: #4787ed; border: 1px solid transparent; }
+button.button.flat.border, button.button.loader.border { border-color: #4787ed; }
+button.button.flat i, button.button.flat span, button.button.loader i, button.button.loader span { color: #4787ed; }
 
-button.button.red.flat { color: #c53727; }
-button.button.red.flat.border { border-color: #c53727;}
-button.button.red.flat i, button.button.red.flat span { color: #c53727; }
+button.button.red.flat, button.button.red.loader { color: #c53727; }
+button.button.red.flat.border, button.button.red.loader.border { border-color: #c53727;}
+button.button.red.flat i, button.button.red.flat span, button.button.red.loader i, button.button.red.loader span { color: #c53727; }
 
-button.button.green.flat { color: #368200; }
-button.button.green.flat.border { border-color: #368200; }
-button.button.green.flat i, button.button.green.flat span { color: #368200; }
+button.button.green.flat, button.button.green.loader { color: #368200; }
+button.button.green.flat.border, button.button.green.loader.border { border-color: #368200; }
+button.button.green.flat i, button.button.green.flat span, button.button.green.loader i, button.button.green.loader span { color: #368200; }
 
 button.button.loader { background-color: #fff !important; cursor: not-allowed; }
 button.button.loader i, button.button.loader span.default { display: none; }
